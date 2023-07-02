@@ -13,7 +13,6 @@ function Dashboard() {
   let loadData = async()=>{
     
     let token = sessionStorage.getItem('token')
-    console.log("token", token)
     let res = await axios.get(`${env.apiurl}/orders`,
     {
       headers:{"Authorization":`Bearer ${token}`}

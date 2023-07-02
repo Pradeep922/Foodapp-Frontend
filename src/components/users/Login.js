@@ -22,7 +22,6 @@ function Login() {
         },
     }
     const { data } = await axios.post(`${env.apiurl}/users/login`, {email, password}, config)
-    console.log("data", data)
     if(data.statusCode===200)
     {
         setToggle(false)

@@ -1,5 +1,5 @@
 const env = {
-    apiurl:"http://localhost:8000"
+    apiurl: process.env.REACT_APP_URL
 }
 
 export default env;

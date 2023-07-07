@@ -10,7 +10,7 @@ function TopBar(props) {
   return <>
   <Navbar bg="primary" variant="dark">
     <Container>
-    <LinkContainer to='javascript(void)'>
+    <LinkContainer to='/login'>
       <Navbar.Brand>FoodApp</Navbar.Brand>
       </LinkContainer>
       <Nav className="me-auto">
